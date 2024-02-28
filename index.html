@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PokeAPI</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="flex-header">
+        <div class="header__div"><a href="https://www.pokemon.com/" target="_blank"><img src="https://imgs.search.brave.com/DC_1K5c3z4P0Y9B9ebv4Gyp91zbkjPwojONgqdWjtq8/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9yYXcu/Z2l0aHVidXNlcmNv/bnRlbnQuY29tL0xl/ZW9uYXJkb1Zhcmdh/cy9wb2tlZGV4L21h/c3Rlci8uZ2l0aHVi/L2xvZ28uc3Zn.svg" alt="logo_pokemon"></a></div>
+        <nav class="options">
+            <ul class="options-items">
+                <li class="filter">
+                    <div class="div_filter">
+                        <p class="a">types</p>
+                    </div>
+                    <div class="list">
+                        <ul class="types invisible">
+                            <li class="li first all">all</li>
+                            <li class="li normal">normal</li>
+                            <li class="li water">water</li>
+                            <li class="li grass">grass</li>
+                            <li class="li fire">fire</li>
+                            <li class="li flying">flying</li>
+                            <li class="li steel">steel</li>
+                            <li class="li bug">bug</li>
+                            <li class="li dragon">dragon</li>
+                            <li class="li electric">electric</li>
+                            <li class="li ghost">ghost</li>
+                            <li class="li fairy">fairy</li>
+                            <li class="li ice">ice</li>
+                            <li class="li fighting">fighting</li>
+                            <li class="li psychic">psychic</li>
+                            <li class="li rock">rock</li>
+                            <li class="li dark">dark</li>
+                            <li class="li ground">ground</li>
+                            <li class="li poison">poison</li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="filter">
+                    <div class="div_filter">
+                        <p class="a">generation</p>
+                    </div>
+                    <div class="list">
+                        <ul class="region invisible">
+                            <li class="li_region first all" value="386">All</li>
+                            <li class="li_region fire" value="151">Kanto</li>
+                            <li class="li_region normal" value="99">Johto</li>
+                            <li class="li_region grass" value="134">Hoenn</li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section class="flex-section">
+    </section>
+    
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    
+    <script src="code.js"></script>
+</body>
+</html>
