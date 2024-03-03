@@ -129,6 +129,7 @@
 
 .normal {
     background: #ccc;
+    color: #000;
 }
 
 .water {
@@ -161,6 +162,7 @@
 
 .electric {
     background: #ffff00;
+    color: #000;
 }
 
 .ghost {
