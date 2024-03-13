@@ -3,7 +3,7 @@ const types = document.querySelector(".types");
 
 const filter = document.querySelector(".filter");
 
-filter.addEventListener("mouseover", () => {
+filter.addEventListener('mouseover', () => {
     types.classList.replace("invisible", "visible");
 })
 
